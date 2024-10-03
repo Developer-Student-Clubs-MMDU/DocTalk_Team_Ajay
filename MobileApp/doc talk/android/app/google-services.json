@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "136711842069",
+    "project_id": "testapp-e1dec",
+    "storage_bucket": "testapp-e1dec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136711842069:android:17ff077b558c39eb53611c",
+        "android_client_info": {
+          "package_name": "com.example.doc_talk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNkKTm7VSHm8Hb8atCbylFwW972TIpSO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
