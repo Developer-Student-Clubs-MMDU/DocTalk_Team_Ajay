@@ -1,6 +1,7 @@
 import 'package:doc_talk/theme/app_theme.dart';
 import 'package:doc_talk/views/Auth/SignUp.dart';
 import 'package:doc_talk/views/home/home_page.dart';
+import 'package:doc_talk/views/home/widgets/bottomNav.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -23,8 +24,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: AppTheme.lightTheme, // Light theme
       darkTheme: AppTheme.darkTheme, // Dark theme
-      themeMode: ThemeMode.system,
-      home: const HomePage(),
+      themeMode: ThemeMode.light,
+      home: const BottomNavCard(),
     );
   }
 }
